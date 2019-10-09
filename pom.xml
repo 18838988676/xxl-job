@@ -14,7 +14,11 @@
 		<module>xxl-job-core</module>
 		<module>xxl-job-admin</module>
 		<module>xxl-job-executor-samples</module>
-    </modules>
+		<module>xxl-job-executors</module>
+        <module>xxl-job-admin-01</module>
+		<module>xxl-job-admin-001</module>
+		<module>xxl-job-admin-002</module>
+	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
