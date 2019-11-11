@@ -17,7 +17,7 @@ import java.net.URL;
  * Date: 2019/9/29.
  * Description:跨平台http业务
  */
-@JobHandler(value = "httpJobHandler02")
+@JobHandler(value = "httpJobHandler")
 @Component
 public class HttpJobHandler extends IJobHandler {
 

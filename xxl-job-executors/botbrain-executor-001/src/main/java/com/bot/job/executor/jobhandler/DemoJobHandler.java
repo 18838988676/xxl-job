@@ -19,9 +19,13 @@ public class DemoJobHandler extends IJobHandler {
     public ReturnT<String> execute(String param) throws Exception {
         for (int i = 0; i < 5; i++) {
             XxlJobLogger.log("Hello ,abc"+i);
+            System.out.println("Hello ,abc"+i);
         }
-        Thread.sleep(3000000);
+//        Thread.sleep(15000);
         System.out.println("0000000");
+
+
+
         return ReturnT.SUCCESS;
     }
 }

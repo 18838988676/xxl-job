@@ -19,13 +19,14 @@ import java.io.InputStreamReader;
  * Date: 2019/9/29.
  * Description:命令行任务
  */
-@JobHandler(value="commandJobHandler")
+@JobHandler(value="commandJobHandler-001")
 @Component
 public class CommandJobHandler extends IJobHandler {
 
-    @Qualifier("propertyResolver")
-    @Autowired
-    private PropertyResolver propertyResolver;
+
+    public String hh(){
+        return null;
+    }
 
     @Override
     public ReturnT<String> execute(String param) throws Exception {
